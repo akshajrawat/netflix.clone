@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Martel Sans";
+}
+
+.main {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url("assets/images/netflix5.jpg");
+  height: 90vh;
+  position: relative;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  background-color: black;
+  height: 90vh;
+  width: 100%;
+  opacity: 0.44;
+}
+
+.nav {
+  max-width: 90%;
+  margin: 0 5%;
+  height: 10vh;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+}
+
+.msg {
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.msg :nth-child(1) {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.msg span {
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.nav .options {
+  width: 220px;
+  height: 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.options select {
+  color: white;
+  text-align: center;
+  border: 0.5px solid white;
+  background-color: rgba(39, 37, 37, 0.771);
+  width: 127px;
+  height: 32px;
+  border-radius: 5px;
+}
+.options button {
+  color: white;
+  text-align: center;
+  border: 0.5px solid white;
+  background-color: rgba(39, 37, 37, 0.771);
+  height: 32px;
+  padding: 0 10px;
+  width: 77px;
+  border-radius: 5px;
+}
+
+.in {
+  display: flex;
+  width: 90%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.in input {
+  border-radius: 7px;
+  width: 100%;
+  max-width: 368px;
+  height: 56px;
+  background-color: rgba(39, 37, 37, 0.771);
+  opacity: 0.9;
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  padding-left: 10px;
+  border: 0.5px solid white;
+}
+.in button {
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  max-width: 100%;
+  width: 210px;
+  height: 56px;
+  color: white;
+  background-color: red;
+  font-size: 1.2rem;
+  font-weight: 800;
+  border: 0.5px solid red;
+}
+
+.line {
+  height: 5px;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.box1 {
+  height: 504px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 .contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 960px;
+  height: 360px;
+}
+
+.box1 .contain .txt {
+  color: white;
+  height: 192px;
+  width: 480px;
+}
+
+.contain .txt :first-child {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.contain .txt :nth-child(2) {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.img {
+  position: relative;
+}
+.img img {
+  position: relative;
+  z-index: 10;
+  max-height: 355px;
+  width: auto;
+}
+.img .vid1 {
+  position: absolute;
+  height: 193px;
+  max-width: 361px;
+  left: 63px;
+  top: 75px;
+}
+.vid2 {
+  position: absolute;
+  height: 193px;
+  max-width: 302px;
+  left: 79px;
+  top: 24px;
+}
+.f {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 850px;
+  background-color: black;
+  text-align: center;
+}
+.faq {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  max-width: 100%;
+  gap: 10px;
+}
+.rect {
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 1100px;
+  height: 84px;
+  background-color: rgba(39, 37, 37, 0.771);
+  padding-left: 20px;
+}
+.rect:hover {
+  background-color: rgba(96, 91, 91, 0.771);
+}
+
+.f h1 {
+  font-weight: 900;
+}
+
+.extra {
+  margin-top: 30px;
+  height: 100px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.extra p {
+  font-weight: 700;
+}
+
+.ff {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  height: 300px;
+  background-color: black;
+  text-align: center;
+}
+.ff ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  list-style: none;
+  height: 300px;
+}
+
+@media only screen and (max-width: 398px) {
+  .in {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .contain {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .box1 {
+    height: 800px;
+  }
+  .txt {
+    text-align: center;
+  }
+}
